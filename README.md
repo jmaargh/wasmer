@@ -76,7 +76,7 @@ curl https://get.wasmer.io -sSfL | sh
   crate docs](https://github.com/wasmerio/wasmer/tree/main/lib/cli/README.md)_
 
   ```sh
-  cargo install wasmer-cli
+  cargo install wasmer-cli --features singlepass,cranelift # add --features=llvm for LLVM compilation support
   ```
 
 > Looking for more installation options? See [the `wasmer-install`
